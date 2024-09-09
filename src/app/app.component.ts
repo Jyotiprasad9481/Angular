@@ -1,5 +1,4 @@
 import { Component } from '@angular/core';
-import { MyServiceService } from './my-service.service';
 
 @Component({
   selector: 'app-root',
@@ -7,8 +6,6 @@ import { MyServiceService } from './my-service.service';
   styleUrls: ['./app.component.css']
 })
 export class AppComponent {
-  greeting : string ;
-  constructor(private service:MyServiceService){
-    this.greeting = this.service.getGreeting()
+ 
   }
-}
+
