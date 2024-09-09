@@ -1,0 +1,22 @@
+.divElement{
+    justify-content: center;
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+    margin: 20rem;
+}
+.divElement .mouseEvent {
+    background-color: red;
+    font-weight: 600;
+    color: white;
+    padding: 10px 10px;
+    margin: 10px 0px;
+    
+}
+.divElement .clickEvent {
+    background-color: yellow;
+    font-weight: 600;
+    color: white;
+    padding: 10px 10px;
+    
+}
