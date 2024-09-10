@@ -1,19 +1,1 @@
-<form [formGroup]="registrationForm" (ngSubmit)="onSubmit()">
-    <div class="formElement">
-    <div > <label for="firstName">First Name:</label> <input id="firstName" type="text" formControlName="firstName">
-        <div class="errorMessage" *ngIf="registrationForm.controls.firstName.errors?.['required'] && registrationForm.controls.firstName.touched"> First
-            name is required. </div>
-    </div>
-    <div > <label for="lastName">Last Name:</label> <input id="lastName" type="text" formControlName="lastName">
-        <div class="errorMessage" *ngIf="registrationForm.controls.lastName.errors?.['required'] && registrationForm.controls.lastName.touched"> Last name
-            is required. </div>
-    </div>
-    <div > <label for="email">Email:</label> <input id="email" type="email" formControlName="email">
-        <div class="errorMessage" *ngIf="registrationForm.controls.email.errors?.['required'] && registrationForm.controls.email.touched"> Email is
-            required  </div>
-        <div class="errorMessage" *ngIf="registrationForm.controls.email.errors?.['email'] && registrationForm.controls.email.touched"> Email must be valid. </div>
-    </div>
-    </div> <button type="submit" [disabled]="registrationForm.invalid">Register</button>
-</form>
-
 <router-outlet></router-outlet>
