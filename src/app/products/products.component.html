@@ -1,0 +1,19 @@
+<div class="container products">
+  <div class="title">
+    <h1 class="headingTitle">Our Products</h1>
+  </div>
+  <div class="row col-md-12">
+    <div class="col-md-4" *ngFor="let item of data">
+      <div class="card">
+        <div class="imageclass"><img [src]="item.imageUrl" class="card-img-top" alt="{{ item.name }}"></div>
+        <div class="card-body">
+          <h5 class="card-title">{{item.name}}</h5>
+          <p class="card-text">{{item.description}}</p>
+          <p class="cardPrice">Price : ${{item.price}}</p>
+          
+          <a href="#" class="btn btn-primary details" routerLink="laptop/{{item.id}}">Check Details</a>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
