@@ -1,0 +1,15 @@
+<div class="container d-flex justify-content-center">
+  <div class="col-md-6">
+    <div class="card">
+      <div class="imageclass"><img [src]="product?.imageUrl" class="card-img-top" alt="{{ product?.name }}"></div>
+      <div class="card-body">
+        <h5 class="card-title">{{product?.name}}</h5>
+        <p class="card-text">{{product?.description}}</p>
+        
+        <div class="d-flex justify-content-between">
+          <a  class="btn btn-primary" (click)="goBack()">Go back</a>
+        <a  class="btn btn-primary" [routerLink]="['/products/laptop', 1]">Go to First Product</a>
+      </div>
+      </div>
+    </div>
+  </div>
