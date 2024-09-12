@@ -1,0 +1,55 @@
+.products .headingTitle{
+  
+  margin: 10px 0px;
+  padding: 20px; 
+  text-align: center;
+  font-weight: bold;
+}
+.products img {
+  width: 90%;
+  height: 250px;
+  object-fit: cover;
+  margin-top: 10px;
+}
+.products .imageclass{
+text-align: center;
+}
+
+.products .card {
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  overflow: hidden; 
+  display: flex;
+  flex-direction: column;
+  height: 470px;
+  margin-bottom: 20px;
+}
+
+.products .details{
+  position: absolute;
+  bottom: 0;
+  margin-bottom: 5px;
+}
+.products .card-title{
+  
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+ 
+}
+.products .card-text{
+  position: relative;
+  display: -webkit-box;
+  -webkit-box-orient: vertical;
+  -webkit-line-clamp: 3; 
+  overflow: hidden;
+  text-overflow: ellipsis;
+ 
+}
+.products .cardPrice {
+color: #999; 
+font-size: 18px; 
+margin-right: 10px;
+
+}
+

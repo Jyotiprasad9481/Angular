@@ -1,0 +1,16 @@
+.imageclass {
+  text-align: center;
+}
+img {
+  width: 93%;
+  margin-top: 10px;
+  border-radius: 8px;
+}
+.card {
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  padding-top: 15px;
+  margin: 20px 0px;
+  
+
+}
